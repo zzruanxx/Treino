@@ -1,8 +1,8 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
-    <title>Estudo</title>
+    <title>Estudo Js</title>
 </head>
 <body>
 
@@ -71,6 +71,25 @@
 
 </script>
 
+<!--Treino JavaScript -->
 
+<script language="JavaScript1.5">
+
+    document.write('<p>'+texto.anchor("a")+':');
+    document.write(texto.length+' elementos</p>');
+    document.write('<p>'+texto.fixed()+'</p>');
+    document.write('<p>'+texto.fontcolor("red")+'</p>');
+    document.write('<br>')+texto.fontsize(7));
+    document.write('<br>'+texto.fontsize(7));
+    document.write('<p>'+texto.italics()+'</p>');
+    document.write('<p>'+texto.link("#a")+'<br>');
+    document.write(texto.replace("uva","Eva")+'</p>');
+    document.write('<p>'+texto.strike());
+    document.write(texto.sub());
+    document.write(texto.sup()+'</p>');
+    document.write('<p>'+texto.toLowerCase()+'');
+    document.write(''+texto.toUpperCase()+'</p>');
+
+</script>
 </body>
 </html>
